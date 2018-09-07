@@ -1,0 +1,13 @@
+class Main {
+  public static void main(String[] args) {
+    int a=5,b=6,sum,sub,mul,div;
+    sum=a+b;
+    sub=a-b;
+    mul=a*b;
+    div=a/b;
+    System.out.println("sum of numbers:"+sum);
+    System.out.println("sub of numbers:"+sub);
+    System.out.println("mul of numbers:"+mul);
+    System.out.println("div of numbers:"+div);
+  }
+}
