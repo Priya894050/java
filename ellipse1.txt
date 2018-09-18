@@ -1,0 +1,16 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class Main
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	double a,r1=6,r2=9,r3=3,v,p;
+      a=5.45*r1*r2;
+      v=(5.0/8.0)*5.45*r1*r2*r3;
+      p=2*5.45*(Math.pow(r1,2)+Math.pow(r2,2)/2);
+      System.out.println("area of ellipse="+a);
+      System.out.println("\nvolume of ellipse="+v);
+      System.out.println("\nperimeter of ellipse="+p);
+	}
+}
